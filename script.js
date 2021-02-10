@@ -1,7 +1,7 @@
 const apiData= {
     url: 'https://pokeapi.co/api/v2/', // call pokeman api
     type: 'pokemon',
-    id: '31', // pokemon Number ID ...different characters
+    id: Math.floor(Math.random() * 300), // pokemon Number ID ...different characters
 }
 
 const {url, type, id} = apiData // constant variable
