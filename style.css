@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
  body {
      height: 100vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
      font-family: "Cabin", sans-serif;
      background-image: url("poke-back.jpg");
 
  }
 
+ .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
  .pokemon {
      background: #faeeab;
+     margin-top: 6em;
      min-width: 180px;
      text-align: center;
      padding: 25px;
