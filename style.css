@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+ body {
+     height: 100vh;
+     font-family: "Cabin", sans-serif;
+     background-image: url("poke-back.jpg");
+
+ }
+
+ .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .pokemon {
+     background: #faeeab;
+     margin-top: 6em;
+     min-width: 180px;
+     text-align: center;
+     padding: 25px;
+     border-radius: 6px;
+     border: 25px #5e3e0d solid;
+     box-shadow: 1px 2px 4px black;
+ }
+     .pokemon .name {
+         font-size: 5em;
+         text-transform: uppercase;
+         font-weight: bold;
+         color: #333;
+
+     }
+.pokemon .details {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0 0;
+}
+
+ 
